@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <title> Restaurant </title>
+    <style>
+        div{
+            background-image:url("https://s.inyourpocket.com/gallery/pisa/2020/02/271514.jpg");
+            padding:80px;
+        }
+        img{
+            height: 70%;
+            width: 30%;
+        }
+        body{
+            background-color: pink;
+        }
+        .navbar{
+            display: block;
+            text-align: center;
+        
+        }
+        button:hover{
+            
+            background-color:antiquewhite;
+        }
+        button{
+            padding:20px;
+            margin:auto;
+            background-color: lavender;
+        }
+        h2,h1{
+            text-align: center;
+        }
+        li{
+            font-size: large;
+        }
+        #a{
+            background-color: lightcoral;
+            text-align: left;
+            font-size: larger;
+            text-align: ;
+            border:2px dotted black;
+            
+        }
+        img{
+            height: 15%;
+            width: 10%;
+        }
+        #b{
+            background-color: antiquewhite;
+            bordor: 70px solid skyblue;
+
+        }
+        table{
+            border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1> THe CHai CaFe</h2>
+    <h2><q>we believe in quality</body></q></h5>
+    <hr>
+    <div class="header" >
+    <h3>THE CHAI CAFE</h3>
+    <p><bigtext><b>The chai cafe</b> is a prestigious restraunt chain serving its customer from past 5 years,<br> we have a wide range of items customised according to our customers taste buds</bigtext></p>
+    
+        </div>
+        <hr>
+        <nav class="navbar">
+            <button>Home</button>
+            <button>About</button>
+            <button>Menu</button>
+            <button>Gallery</button>
+            <button>Healty Tips</button>
+            <button onclick="myfunction()">Contact Us</button>
+
+  
+    </nav>
+    <hr>
+    <h3>Welcome To our Restaurant</h3>
+    <h4>Our Specialities</h4>
+    <ul> 
+        <li>Special masala chai </li>
+        <li>Maska bun</li>
+        <li>Chocolate madness shake</li>
+        <img src="https://th.bing.com/th/id/OIP.IXE1LBqwmXwfRqJdjWah8QHaFz?pid=ImgDet&w=480&h=376&rs=1">
+    </ul>
+
+<nav id="d1">
+    <p id="a">  Dish of the day <br>
+       <bigtext><cite>pasta</cite></bigtext> <br><img src="https://th.bing.com/th/id/OIP.NXYCMupfLxAp4FDHkGaCugHaJ4?pid=ImgDet&rs=1" ></p>
+       <p id="b"> <bigtext>Special offers</bigtext>
+        <table>
+            <tr>
+            <td> offer1</td>
+            <td> offer1</td>
+            <td> offer1</td>
+            </tr>
+        </table>
+    </nav>
+   <script>
+    function myfunction(){
+        alert("drop your contact number")
+        prompt("Mobile number:")
+        confirm("our customer service will call you soon")
+
+
+    }
+    
+   </script>
+</body>ett
